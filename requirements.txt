@@ -1,0 +1,4 @@
+Django (3.0 or higher)
+Tweepy
+MySQL (5.7 or higher)
+Python (3.7 or higher)

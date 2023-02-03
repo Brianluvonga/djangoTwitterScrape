@@ -1,0 +1,48 @@
+# Overview
+This is a Django application that uses the Twitter API to scrape tweets using the Tweepy library and store the data in a MySQL database.
+
+# Requirements
+Django (3.0 or higher)
+Tweepy
+MySQL (5.7 or higher)
+Python (3.7 or higher)
+
+
+# Twitter Credentials
+
+To retrieve your Twitter credentials, follow these steps:
+
+Go to the Twitter Developer website (https://developer.twitter.com/) and log in with your Twitter account.
+
+Navigate to the "Apps" section and click on the app for which you need the credentials.
+
+Click on the "Details" tab, and then click on "Keys and Tokens".
+
+Your API Key and API Secret Key will be displayed on this page. You can also generate an Access Token and Access Token Secret from this page by clicking on the "Generate" button next to each one.
+
+Installation
+
+Clone the repository:
+
+
+# git clone https://github.com/Brianluvonga/django-twitter-scraper.git
+Change into the project directory:
+
+
+cd django-TwitterScrape
+Create a virtual environment:
+
+Install the required packages:
+
+# pip install -r requirements.txt
+Connect to your MySQL database and create a new database for this application.
+
+Update the DATABASES section in the settings.py file with your MySQL database details.
+
+Run the migrations:
+
+
+# python manage.py migrate
+Start the development server:
+
+# python manage.py runserver
